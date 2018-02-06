@@ -1,99 +1,117 @@
 .side_feed {
-	display:block;
-	position:fixed;
-	top:50%;
-	right:0;
-	width:auto;
-	height:auto;
-	margin:-111px 0 0 0;
+    display: block;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    width: auto;
+    height: auto;
+    margin: -111px 0 0 0;
 }
+
 .feed_b {
-	display:block;
-	position:absolute;
-	top:0;
-	right:-250px;
-	width:250px;
-	height:500px;
-	background:#FFF;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    height: 500px;
+    background: #FFF;
 }
+
 .feed_b .feed_icon {
-	display:block;
-	position:absolute;
-	left:-52px;
-	width:52px;
-	height:54px;
-	background:#000;
-	cursor:pointer;
+    display: block;
+    position: absolute;
+    left: -52px;
+    width: 52px;
+    height: 54px;
+    background: #000;
+    cursor: pointer;
 }
+
 #feed_0 {
-	margin:0;
-	z-index:4;
+    margin: 0;
+    z-index: 4;
 }
+
 #feed_1 {
-	margin:56px 0 0 0;
-	z-index:3;
+    margin: 56px 0 0 0;
+    z-index: 3;
 }
+
 #feed_2 {
-	margin:112px 0 0 0;
-	z-index:2;
+    margin: 112px 0 0 0;
+    z-index: 2;
 }
+
 #feed_3 {
-	margin:168px 0 0 0;
-	z-index:1;
+    margin: 168px 0 0 0;
+    z-index: 1;
 }
+
 #feed_0 .feed_icon {
-	background:red;
+    background: red;
 }
+
 #feed_1 .feed_icon {
-	background:green;
+    background: green;
 }
+
 #feed_2 .feed_icon {
-	background:blue;
+    background: blue;
 }
+
 #feed_3 .feed_icon {
-	background:gray;
+    background: gray;
 }
+
 .feed_b ul {
-	display:block;
-	width:100%;
-	height:100%;
-	overflow-x:hidden;
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
 }
+
 .feed_b a.feed_user {
-	display:block;
-	height:54px;
-	line-height:54px;
-	color:#FFF;
-	text-align:center;
-	text-transform:uppercase;
-	text-decoration:underline;
-	background:#000;
+    display: block;
+    height: 54px;
+    line-height: 54px;
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    background: #000;
 }
+
 .feed_b ul {
-	display:block;
-	margin:0;
-	padding:0;
-	list-style:none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
+
 .feed_b ul li {
-	display:block;
-	width:inherit;
-	padding:0;
-	margin:0;
-	border-left:1px solid #969696;
-	border-bottom:1px solid #969696;
-	overflow:hidden;
+    display: block;
+    width: inherit;
+    padding: 0;
+    margin: 0;
+    border-left: 1px solid #969696;
+    border-bottom: 1px solid #969696;
+    overflow: hidden;
 }
+
 .feed_b ul li a {
-	display:block;
-	width:auto;
-	margin:0;
-	padding:15px 10px;
-	text-decoration:none;
+    display: block;
+    width: auto;
+    margin: 0;
+    padding: 15px 10px;
+    text-decoration: none;
 }
-.feed_b ul li a:hover {}
+
+.feed_b ul li a:hover {
+}
+
 .feed_b ul li a span {
-	display:block;
-	color:green;
-	text-decoration:none;
+    display: block;
+    color: green;
+    text-decoration: none;
 }
